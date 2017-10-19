@@ -15,6 +15,9 @@ import os
 
 # This test verifies that the Future Info Toolbar buttons are fully functional
 
+display = Display(visible=0, size=(800, 800))
+display.start()
+
 driverName = []
 #driverName.append(webdriver.Ie())
 driverName.append(webdriver.Chrome())
