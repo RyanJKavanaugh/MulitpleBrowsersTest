@@ -24,7 +24,7 @@ driverName = []
 driverName.append(webdriver.Chrome())
 driverName.append(webdriver.Firefox())
 #driverName.append(webdriver.Safari())
-driverName.append(webdriver.PhantomJS())
+driverName.append(webdriver.PhantomJS("c:\driverPath"))
 
 
 caps = []
