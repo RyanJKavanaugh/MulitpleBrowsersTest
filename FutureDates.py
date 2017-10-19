@@ -23,7 +23,7 @@ driverName = []
 #driverName.append(webdriver.Ie())
 driverName.append(webdriver.Chrome())
 driverName.append(webdriver.Firefox())
-driverName.append(webdriver.Safari())
+#driverName.append(webdriver.Safari())
 driverName.append(webdriver.PhantomJS())
 
 
